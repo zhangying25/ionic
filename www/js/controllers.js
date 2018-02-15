@@ -170,8 +170,8 @@ angular.module('conFusion.controllers', [])
   }])
 
   .controller('DishDetailController',
-    ['$scope', '$stateParams', 'menuFactory', 'favoriteFactory', 'baseURL', '$ionicPopover',
-    function($scope, $stateParams, menuFactory, favoriteFactory, baseURL, $ionicPopover) {
+    ['$scope', '$stateParams', 'menuFactory', 'favoriteFactory', 'baseURL', '$ionicPopover', '$ionicModal',
+    function($scope, $stateParams, menuFactory, favoriteFactory, baseURL, $ionicPopover, $ionicModal) {
 
     $scope.baseURL = baseURL;
     $scope.dish = {};
@@ -198,9 +198,50 @@ angular.module('conFusion.controllers', [])
     });
 
     $scope.addToFavorite = function() {
-        console.log("index is " + $scope.dish.id);
-        favoriteFactory.addToFavorites($scope.dish.id);
-        $scope.popover.hide();
+      console.log("index is " + $scope.dish.id);
+      favoriteFactory.addToFavorites($scope.dish.id);
+      $scope.popover.hide();
+    };
+
+    $scope.mycomment = {
+      "rating": 5,
+      "author": "",
+      "comment": "",
+      "date": ""
+    };
+
+    $ionicModal.fromTemplateUrl('templates/dish-comment.html', {
+      scope: $scope
+    }).then(function(modal) {
+      $scope.commentform = modal;
+    });
+
+    $scope.comment = function() {
+      $scope.popover.hide();
+      $scope.commentform.show();
+    };
+    // Triggered in the login modal to close it
+    $scope.closeComment = function() {
+      $scope.commentform.hide();
+    };
+
+    // Perform the login action when the user submits the login form
+    $scope.addComment = function() {
+      $scope.mycomment.date = new Date().toISOString();
+      console.log($scope.mycomment);
+
+      $scope.dish.comments.push($scope.mycomment);
+      menuFactory.getDishes().update({
+        id: $scope.dish.id
+      }, $scope.dish);
+
+      $scope.commentform.hide();
+      $scope.mycomment = {
+        rating: 5,
+        comment: "",
+        author: "",
+        date: ""
+      };
     };
   }])
 
