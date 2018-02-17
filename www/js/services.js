@@ -61,6 +61,8 @@ angular.module('conFusion.services', ['ngResource'])
           favorites.splice(i, 1);
         }
       }
+
+      $localStorage.storeObject('userfavs', favorites);
     }
 
     favFac.getFavorites = function() {
