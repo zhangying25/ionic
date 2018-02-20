@@ -30,6 +30,10 @@
     },
     "cordova-plugin-camera": {
       "PACKAGE_NAME": "io.ionic.starter"
+    },
+    "com.synconset.imagepicker": {
+      "PHOTO_LIBRARY_USAGE_DESCRIPTION": "conFusion",
+      "PACKAGE_NAME": "io.ionic.starter"
     }
   },
   "dependent_plugins": {

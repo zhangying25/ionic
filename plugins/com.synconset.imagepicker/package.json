@@ -1,19 +1,19 @@
 {
-  "_from": "cordova-plugin-telerik-imagepicker",
+  "_from": "cordova-plugin-telerik-imagepicker@^2.1.8",
   "_id": "cordova-plugin-telerik-imagepicker@2.1.8",
   "_inBundle": false,
   "_integrity": "sha1-4tUx22CVCr652TRv/XvxrtR5kEM=",
   "_location": "/cordova-plugin-telerik-imagepicker",
   "_phantomChildren": {},
   "_requested": {
-    "type": "tag",
+    "type": "range",
     "registry": true,
-    "raw": "cordova-plugin-telerik-imagepicker",
+    "raw": "cordova-plugin-telerik-imagepicker@^2.1.8",
     "name": "cordova-plugin-telerik-imagepicker",
     "escapedName": "cordova-plugin-telerik-imagepicker",
-    "rawSpec": "",
+    "rawSpec": "^2.1.8",
     "saveSpec": null,
-    "fetchSpec": "latest"
+    "fetchSpec": "^2.1.8"
   },
   "_requiredBy": [
     "#USER",
@@ -21,7 +21,7 @@
   ],
   "_resolved": "https://registry.npmjs.org/cordova-plugin-telerik-imagepicker/-/cordova-plugin-telerik-imagepicker-2.1.8.tgz",
   "_shasum": "e2d531db60950abeb9d9346ffd7bf1aed4799043",
-  "_spec": "cordova-plugin-telerik-imagepicker",
+  "_spec": "cordova-plugin-telerik-imagepicker@^2.1.8",
   "_where": "/Users/yingz/GitRepository/Cousera/ionic/conFusion",
   "bundleDependencies": false,
   "cordova_name": "ImagePicker",

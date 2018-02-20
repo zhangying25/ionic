@@ -47,6 +47,20 @@
             {
               "xml": "<preference name=\"CameraUsesGeolocation\" value=\"false\" />",
               "count": 1
+            },
+            {
+              "xml": "<feature name=\"ImagePicker\"><param name=\"ios-package\" value=\"SOSPicker\" /></feature>",
+              "count": 1
+            }
+          ]
+        }
+      },
+      "*-Info.plist": {
+        "parents": {
+          "NSPhotoLibraryUsageDescription": [
+            {
+              "xml": "<string>conFusion</string>",
+              "count": 1
             }
           ]
         }
@@ -79,6 +93,10 @@
       "PACKAGE_NAME": "io.ionic.starter"
     },
     "cordova-plugin-camera": {
+      "PACKAGE_NAME": "io.ionic.starter"
+    },
+    "com.synconset.imagepicker": {
+      "PHOTO_LIBRARY_USAGE_DESCRIPTION": "conFusion",
       "PACKAGE_NAME": "io.ionic.starter"
     }
   },
@@ -188,6 +206,14 @@
       "clobbers": [
         "CameraPopoverHandle"
       ]
+    },
+    {
+      "id": "com.synconset.imagepicker.ImagePicker",
+      "file": "plugins/com.synconset.imagepicker/www/imagepicker.js",
+      "pluginId": "com.synconset.imagepicker",
+      "clobbers": [
+        "plugins.imagePicker"
+      ]
     }
   ],
   "plugin_metadata": {
@@ -199,6 +225,7 @@
     "cordova-plugin-x-toast": "2.6.0",
     "de.appplant.cordova.plugin.local-notification": "0.8.5",
     "ionic-plugin-keyboard": "2.2.1",
-    "cordova-plugin-camera": "4.0.2"
+    "cordova-plugin-camera": "4.0.2",
+    "com.synconset.imagepicker": "2.1.8"
   }
 }
