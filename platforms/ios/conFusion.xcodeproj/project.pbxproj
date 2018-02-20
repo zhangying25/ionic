@@ -85,6 +85,8 @@
 		18BFD2FAFCCF4E6BAC966B79 /* UIApplication+APPLocalNotification.ios9.m in Sources */ = {isa = PBXBuildFile; fileRef = 216C8D5FE51C4D7CBBB21AE8 /* UIApplication+APPLocalNotification.ios9.m */; };
 		BA342A51FCC74B1E9F12ADD1 /* UILocalNotification+APPLocalNotification.ios9.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AB352B8296749B882544044 /* UILocalNotification+APPLocalNotification.ios9.m */; };
 		330F937ADB3E46FCB5507180 /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FA13143B82245ACAC6F7ADA /* UserNotifications.framework */; };
+		A5DA7609AB0845B388834B2B /* CDVVibration.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FBBF5C4915A45F08CA3A4E6 /* CDVVibration.m */; };
+		9EBB93D9E8574DBABBDB57F7 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19094B9A4C7045A5B829913E /* AudioToolbox.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -243,6 +245,9 @@
 		1E30863D6B894095B496D0E7 /* UIApplication+APPLocalNotification.ios9.h */ = {isa = PBXFileReference; name = "UIApplication+APPLocalNotification.ios9.h"; path = "de.appplant.cordova.plugin.local-notification/UIApplication+APPLocalNotification.ios9.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
 		E6C367C6FE464FAF855D0700 /* UILocalNotification+APPLocalNotification.ios9.h */ = {isa = PBXFileReference; name = "UILocalNotification+APPLocalNotification.ios9.h"; path = "de.appplant.cordova.plugin.local-notification/UILocalNotification+APPLocalNotification.ios9.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
 		6FA13143B82245ACAC6F7ADA /* UserNotifications.framework */ = {isa = PBXFileReference; name = "UserNotifications.framework"; path = "System/Library/Frameworks/UserNotifications.framework"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
+		4FBBF5C4915A45F08CA3A4E6 /* CDVVibration.m */ = {isa = PBXFileReference; name = "CDVVibration.m"; path = "cordova-plugin-vibration/CDVVibration.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		EA2B817056AB4B1BAA896B7E /* CDVVibration.h */ = {isa = PBXFileReference; name = "CDVVibration.h"; path = "cordova-plugin-vibration/CDVVibration.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		19094B9A4C7045A5B829913E /* AudioToolbox.framework */ = {isa = PBXFileReference; name = "AudioToolbox.framework"; path = "System/Library/Frameworks/AudioToolbox.framework"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -262,6 +267,7 @@
 				DE384972CA6A450CA9BED820 /* Photos.framework in Frameworks */,
 				A7D591EBBC034CE5965F6C6A /* SystemConfiguration.framework in Frameworks */,
 				330F937ADB3E46FCB5507180 /* UserNotifications.framework in Frameworks */,
+				9EBB93D9E8574DBABBDB57F7 /* AudioToolbox.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -356,6 +362,7 @@
 				712F6E4D7FBE4121A7931C84 /* Photos.framework */,
 				BEBE08C350F84EE7A9141BD5 /* SystemConfiguration.framework */,
 				6FA13143B82245ACAC6F7ADA /* UserNotifications.framework */,
+				19094B9A4C7045A5B829913E /* AudioToolbox.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -475,6 +482,8 @@
 				0F1B6914D56E4059BF6D7174 /* APPLocalNotificationOptions.ios9.h */,
 				1E30863D6B894095B496D0E7 /* UIApplication+APPLocalNotification.ios9.h */,
 				E6C367C6FE464FAF855D0700 /* UILocalNotification+APPLocalNotification.ios9.h */,
+				4FBBF5C4915A45F08CA3A4E6 /* CDVVibration.m */,
+				EA2B817056AB4B1BAA896B7E /* CDVVibration.h */,
 			);
 			name = Plugins;
 			path = "conFusion/Plugins";
@@ -645,6 +654,7 @@
 				7E7108E88E36412BBC590306 /* APPLocalNotificationOptions.ios9.m in Sources */,
 				18BFD2FAFCCF4E6BAC966B79 /* UIApplication+APPLocalNotification.ios9.m in Sources */,
 				BA342A51FCC74B1E9F12ADD1 /* UILocalNotification+APPLocalNotification.ios9.m in Sources */,
+				A5DA7609AB0845B388834B2B /* CDVVibration.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -112,6 +112,15 @@ module.exports = [
       "cordova.plugins.notification.local.core",
       "plugin.notification.local.core"
     ]
+  },
+  {
+    "id": "cordova-plugin-vibration.notification",
+    "file": "plugins/cordova-plugin-vibration/www/vibration.js",
+    "pluginId": "cordova-plugin-vibration",
+    "merges": [
+      "navigator.notification",
+      "navigator"
+    ]
   }
 ];
 module.exports.metadata = 
@@ -126,7 +135,8 @@ module.exports.metadata =
   "cordova-plugin-camera": "4.0.2",
   "com.synconset.imagepicker": "2.1.8",
   "cordova-plugin-app-event": "1.2.1",
-  "de.appplant.cordova.plugin.local-notification": "0.8.5"
+  "de.appplant.cordova.plugin.local-notification": "0.8.5",
+  "cordova-plugin-vibration": "3.0.1"
 };
 // BOTTOM OF METADATA
 });

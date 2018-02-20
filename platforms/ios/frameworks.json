@@ -9,5 +9,6 @@
     "Security.framework": 1,
     "Photos.framework": 1,
     "SystemConfiguration.framework": 1,
-    "UserNotifications.framework": 1
+    "UserNotifications.framework": 1,
+    "AudioToolbox.framework": 1
 }

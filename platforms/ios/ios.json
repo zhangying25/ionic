@@ -51,6 +51,10 @@
             {
               "xml": "<feature name=\"LocalNotification\"><param name=\"ios-package\" onload=\"true\" value=\"APPLocalNotification\" /><param name=\"onload\" value=\"true\" /></feature>",
               "count": 1
+            },
+            {
+              "xml": "<feature name=\"Vibration\"><param name=\"ios-package\" value=\"CDVVibration\" /></feature>",
+              "count": 1
             }
           ]
         }
@@ -97,6 +101,9 @@
       "PACKAGE_NAME": "io.ionic.starter"
     },
     "de.appplant.cordova.plugin.local-notification": {
+      "PACKAGE_NAME": "io.ionic.starter"
+    },
+    "cordova-plugin-vibration": {
       "PACKAGE_NAME": "io.ionic.starter"
     }
   },
@@ -214,6 +221,15 @@
         "cordova.plugins.notification.local.core",
         "plugin.notification.local.core"
       ]
+    },
+    {
+      "id": "cordova-plugin-vibration.notification",
+      "file": "plugins/cordova-plugin-vibration/www/vibration.js",
+      "pluginId": "cordova-plugin-vibration",
+      "merges": [
+        "navigator.notification",
+        "navigator"
+      ]
     }
   ],
   "plugin_metadata": {
@@ -226,6 +242,7 @@
     "cordova-plugin-camera": "4.0.2",
     "com.synconset.imagepicker": "2.1.8",
     "cordova-plugin-app-event": "1.2.1",
-    "de.appplant.cordova.plugin.local-notification": "0.8.5"
+    "de.appplant.cordova.plugin.local-notification": "0.8.5",
+    "cordova-plugin-vibration": "3.0.1"
   }
 }
