@@ -22,9 +22,6 @@
     "cordova-plugin-x-toast": {
       "PACKAGE_NAME": "io.ionic.starter"
     },
-    "de.appplant.cordova.plugin.local-notification": {
-      "PACKAGE_NAME": "io.ionic.starter"
-    },
     "ionic-plugin-keyboard": {
       "PACKAGE_NAME": "io.ionic.starter"
     },
@@ -33,6 +30,9 @@
     },
     "com.synconset.imagepicker": {
       "PHOTO_LIBRARY_USAGE_DESCRIPTION": "conFusion",
+      "PACKAGE_NAME": "io.ionic.starter"
+    },
+    "de.appplant.cordova.plugin.local-notification": {
       "PACKAGE_NAME": "io.ionic.starter"
     }
   },

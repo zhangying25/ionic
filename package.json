@@ -30,12 +30,12 @@
       "cordova-plugin-device": {},
       "cordova-plugin-splashscreen": {},
       "cordova-plugin-ionic-webview": {},
-      "de.appplant.cordova.plugin.local-notification": {},
       "cordova-plugin-x-toast": {},
       "cordova-plugin-camera": {},
       "com.synconset.imagepicker": {
         "PHOTO_LIBRARY_USAGE_DESCRIPTION": "conFusion"
-      }
+      },
+      "de.appplant.cordova.plugin.local-notification": {}
     },
     "platforms": [
       "ios"

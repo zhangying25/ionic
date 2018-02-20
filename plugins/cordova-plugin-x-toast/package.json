@@ -2,7 +2,6 @@
   "_from": "git+https://github.com/EddyVerbruggen/Toast-PhoneGap-Plugin.git",
   "_id": "cordova-plugin-x-toast@2.6.0",
   "_inBundle": false,
-  "_integrity": "sha1-f7er0ruZBAHJDbysBjhHXUipJVU=",
   "_location": "/cordova-plugin-x-toast",
   "_phantomChildren": {},
   "_requested": {
@@ -11,7 +10,7 @@
     "rawSpec": "https://github.com/EddyVerbruggen/Toast-PhoneGap-Plugin.git",
     "saveSpec": "git+https://github.com/EddyVerbruggen/Toast-PhoneGap-Plugin.git",
     "fetchSpec": "https://github.com/EddyVerbruggen/Toast-PhoneGap-Plugin.git",
-    "gitCommittish": "master"
+    "gitCommittish": null
   },
   "_requiredBy": [
     "#USER",
@@ -19,7 +18,7 @@
   ],
   "_resolved": "git+https://github.com/EddyVerbruggen/Toast-PhoneGap-Plugin.git#4324168d2a5848028881ec075b5a741221286350",
   "_spec": "https://github.com/EddyVerbruggen/Toast-PhoneGap-Plugin.git",
-  "_where": "/Users/yingz/GitRepository/ionic",
+  "_where": "/Users/yingz/GitRepository/Cousera/ionic/conFusion",
   "author": {
     "name": "Eddy Verbruggen",
     "email": "eddyverbruggen@gmail.com",

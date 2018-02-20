@@ -193,7 +193,7 @@ angular.module('conFusion.controllers', [])
             });
 
           $cordovaToast
-            .show('Added Favorite ' + $scope.dishes[index].name, 'long', 'center')
+            .show('Added Favorite ' + $scope.dishes[index].name, 'long', 'bottom')
             .then(function(success) {
               // success
             }, function(error) {
