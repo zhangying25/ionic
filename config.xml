@@ -85,6 +85,5 @@
     <plugin name="cordova-plugin-x-toast" spec="https://github.com/EddyVerbruggen/Toast-PhoneGap-Plugin.git" />
     <plugin name="de.appplant.cordova.plugin.local-notification" spec="^0.8.5" />
     <engine name="ios" spec="~4.5.4" />
-    <engine name="android" spec="~7.0.0" />
     <plugin name="cordova-plugin-camera" spec="^4.0.2" />
 </widget>
